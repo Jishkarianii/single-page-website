@@ -1,0 +1,37 @@
+.contents-item {
+    padding: 40px;
+    max-width: 475px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.contents-item strong {
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #000000;
+} 
+
+.contents-item p {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 58px;
+    max-width: 250px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5C5C5C;
+}
+
+.contents-item-img {
+    margin-top: 60px;
+}
+
+.contents-item-img img {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .contents-item {
+        margin: 0 15px;
+    }
+}

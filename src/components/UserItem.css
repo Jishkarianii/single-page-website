@@ -1,0 +1,39 @@
+.user-item {
+    margin-top: 23px;
+    padding: 40px 70px 40px 40px;
+    max-width: 430px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.user-name {
+    margin-left: 23px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.user-text {
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .user-item {
+        margin: 0 10px;
+        margin-top: 23px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .user-item {
+        margin-top: 0;
+    }
+}

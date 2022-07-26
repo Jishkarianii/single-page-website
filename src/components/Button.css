@@ -1,0 +1,44 @@
+.btn {
+    border: none;
+    background-color: unset;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.bg-none {
+    border: 1px solid #FFFFFF;
+}
+
+.bg-none:hover {
+    background-color: #FFFFFF;
+    color: #181818;
+}
+
+.bg-fill {
+    border: 1px solid #4452FE;
+    background-color: #4452FE;
+    color: #FFFFFF;
+}
+
+.bg-fill:hover {
+    background-color: #4e5dff;
+}
+
+.medium-btn {
+    padding: 10px 46px;
+}
+
+.large-btn {
+    padding: 20px 40px;
+}
+
+@media screen and (max-width: 500px) {
+    .medium-btn {
+        padding: 8px 42px;
+    }
+    
+    .large-btn {
+        padding: 14px 35px;
+    }
+}

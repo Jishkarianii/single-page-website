@@ -1,0 +1,33 @@
+.partners {
+    margin-top: 200px;
+}
+
+.partners-logos {
+    padding: 0 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 830px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.partners-btn {
+    margin-top: 50px;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    .partners-logos {
+        max-width: 280px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: auto auto auto;
+        gap: 50px;
+    }
+
+    .partners-logos img:nth-child(6) {
+        margin-left: -20px;
+        width: 100px;
+    }
+}

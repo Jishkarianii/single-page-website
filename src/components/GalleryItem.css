@@ -1,0 +1,42 @@
+.gallery-item {
+    margin: 0 10px;
+    height: 285px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.medium-img {
+    padding: 0;
+    max-width: 225px;
+}
+
+.large-img {
+    padding: 0;
+    max-width: 395px;
+}
+
+@media screen and (max-width: 768px) {
+    .gallery-item {
+        height: 205px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .gallery-item {
+        height: 285px;
+    }
+
+    .medium-img {
+        max-width: 330px;
+    }
+    
+    .large-img {
+        max-width: 330px;
+        display: none;
+    }
+}

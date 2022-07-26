@@ -1,0 +1,24 @@
+.testimonials {
+    margin-top: 210px;
+}
+
+.testimonials-users {
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 880px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 550px) {     
+    .testimonials-users, .users-cont {
+        display: grid;
+        justify-content: center;
+        gap: 23px;
+    }
+    
+    .testimonials-users {
+        margin: 0 20px;
+        margin-top: 50px;
+    }
+}
